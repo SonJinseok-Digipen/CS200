@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tutorial-0", "tutorial-0\tutorial-0.vcxproj", "{B866B4EC-AE7E-482C-B507-8FADE808B6A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common_gl", "common_gl\common_gl.vcxproj", "{13C43438-2D3C-4392-9DB3-E2A0E8BBFC17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B866B4EC-AE7E-482C-B507-8FADE808B6A5}.Debug|x64.ActiveCfg = Debug|x64
+		{B866B4EC-AE7E-482C-B507-8FADE808B6A5}.Debug|x64.Build.0 = Debug|x64
+		{B866B4EC-AE7E-482C-B507-8FADE808B6A5}.Release|x64.ActiveCfg = Release|x64
+		{B866B4EC-AE7E-482C-B507-8FADE808B6A5}.Release|x64.Build.0 = Release|x64
+		{13C43438-2D3C-4392-9DB3-E2A0E8BBFC17}.Debug|x64.ActiveCfg = Debug|x64
+		{13C43438-2D3C-4392-9DB3-E2A0E8BBFC17}.Debug|x64.Build.0 = Debug|x64
+		{13C43438-2D3C-4392-9DB3-E2A0E8BBFC17}.Release|x64.ActiveCfg = Release|x64
+		{13C43438-2D3C-4392-9DB3-E2A0E8BBFC17}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D657E456-64B7-468D-AC59-62853D81C2E8}
+	EndGlobalSection
+EndGlobal
