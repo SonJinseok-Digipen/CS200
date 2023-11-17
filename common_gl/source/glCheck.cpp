@@ -15,8 +15,9 @@ void glCheckError(const char* file, unsigned line, const char* expression)
     GLenum errorCode = glGetError();
 
     if (errorCode == GL_NO_ERROR)
+    {
         return;
-
+    }
     const std::string fileString  = file;
     std::string       error       = "Unknown error";
     std::string       description = "No description";

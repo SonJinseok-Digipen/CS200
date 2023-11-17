@@ -20,6 +20,7 @@ GLVertexArray::GLVertexArray(GLVertexArray&& temp) noexcept
 	indices_type = temp.indices_type;
 	primitive_pattern = temp.primitive_pattern;
 	num_vertices = temp.num_vertices;
+	temp.vertex_array_handle = 0;
 
 }
 
@@ -32,6 +33,7 @@ GLVertexArray& GLVertexArray::operator=(GLVertexArray&& temp) noexcept
 	indices_type = temp.indices_type;
 	primitive_pattern = temp.primitive_pattern;
 	num_vertices = temp.num_vertices;
+	temp.vertex_array_handle = 0;
 	return *this;
 }
 
@@ -81,7 +83,7 @@ void GLDrawVertices([[maybe_unused]] const GLVertexArray& vertex_array) noexcept
 {
 
 
-	glCheck(glDrawArrays(vertex_array.GetPrimitivePattern(), 0, vertex_array.GetIndicesCount()));
+	glCheck(glDrawArrays(vertex_array.GetPrimitivePattern(), 0, vertex_array.GetVertexCount()));
 
 
 
